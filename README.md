@@ -41,3 +41,19 @@ Each directory has its own README for detailed explanations.
 ## Why This Project?
 
 This is a hands-on way to understand the basics of AI, LLMs, and how simple learning can be implemented. By separating logic, you can focus on one concept at a time and build your understanding step by step.
+
+## New: Next-Word Prediction (Bigram Model)
+
+- The bot now supports next-word prediction using a simple bigram model built from all previous chat history.
+- To use this feature, type `predict: your-word` in the chat. The bot will respond with the most likely next word based on all previous messages.
+- Example:
+  - You: hello world
+  - You: hello mom
+  - You: predict: hello
+  - Bot: Prediction for 'hello': world
+
+## Architecture Overview
+
+- All logic is modularized: chat (I/O), learning (model), memory (history).
+- The learning module now includes a bigram-based prediction function (`predict_next_word`).
+- The bot learns from every message and predictions are based on the entire chat history, not just the last message.
