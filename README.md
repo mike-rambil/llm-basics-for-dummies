@@ -34,7 +34,8 @@ Each directory has its own README for detailed explanations.
 
 1. Clone the repository.
 2. Run `python main.py` to start chatting with the bot.
-3. Explore the code and directories to understand each part.
+3. To predict the next word after any word, type `predict: your-word` in the chat and the bot will respond with its prediction.
+4. Explore the code and directories to understand each part.
 
 ---
 
