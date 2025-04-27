@@ -26,18 +26,6 @@ This project is an attempt by Micheal Palliparambil to learn and gain a deeper u
 
 ## In Progress
 
-- [ ] Implement input/output logic
-- [ ] Improve learning mechanism
-- [ ] Add more advanced features (optional)
-- [ ] Add usage examples
-- [ ] Refine documentation
-
 ---
 
 ## Next Steps
-
-- [ ] Implement input/output logic
-- [ ] Improve learning mechanism
-- [ ] Add more advanced features (optional)
-- [ ] Add usage examples
-- [ ] Refine documentation
